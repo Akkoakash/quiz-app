@@ -38,8 +38,8 @@ export default function App() {
               setScore={setScore}
               setQuestions={setQuestions}/>
       </Route>
-      <Route path="/result" exact>
-        <Result  score={score}/>
+      <Route path="/result" >
+        <Result  name={name} score={score}/>
       </Route>
      </Switch>
     </div>
